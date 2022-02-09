@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: #CCE8CC;
+}
+
+h1, h2, h3 {
+  font-family: 'Noto Serif', serif;
+  color: #499167;
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+  color: #31393C;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#pic {
+  border-radius: 10px;
+  height: 100px;
+}
+
+.button {
+  color: #FFFFFF;
+  padding: 12px;
+  background-color: #2541B2;
+  font-size: 14px;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button:hover {
+  background-color: #8B80F9;
+}
+
+a:hover {
+  color: #55828B;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  line-height: 25px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.container {
+  margin: 70px 100px;
+}
+
+.card {
+  background-color: #F6EFEE;
+  object-fit: cover;
+  width: 40vw;
+  text-align: center;
+  margin: 20px auto;
+  padding: 70px;
+  border-radius: 30px;
+  box-shadow: 5px 10px #8FAD88;
+}
+
+#social {
+  justify-content: baseline;
+}
+
+
+#social i {
+  justify-content: baseline;
+  color: #2541B2;
+  font-size: 50px;
+}
